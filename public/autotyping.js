@@ -122,7 +122,7 @@ const textArray = ['Backend Engineer', 'Data Scientist', 'Biochemist', 'ML Enthu
     const autoTyper = new AutoTyping('.text', textArray, {
         typeSpeed: 75,
         deleteSpeed: 75,
-        waitBeforeDelete: 1500,
+        waitBeforeDelete: 1000,
         waitBetweenWords: 500,
     });
     autoTyper.start()
